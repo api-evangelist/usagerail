@@ -1,0 +1,28 @@
+aid: usagerail
+name: UsageRail
+description: 'UsageRail is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/usagerail/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-02'
+modified: '2026-11-02'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://usagerail.com
+- type: Documentation
+  url: https://usagerail.com/docs/server-api
+x-submission-notes: API key and quota management for sellers; no OpenAPI yet.
+x-submission-probe: docs 200 on 2026-11-02
+x-submitted-by: support@usagerail.com (apis.io/add, 2026-11-02)
